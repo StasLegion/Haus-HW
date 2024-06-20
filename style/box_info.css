@@ -1,0 +1,17 @@
+.center_bg_thre {
+  display: flex;
+  width: 1107px;
+  margin: auto;
+}
+
+.box_info {
+  width: 160px;
+  margin-top: 108px;
+  margin-left: 70px;
+}
+
+.box_info p {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 8.5px;
+}

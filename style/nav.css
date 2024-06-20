@@ -1,0 +1,41 @@
+.bakground_img {
+  width: 1437px;
+  height: 803px;
+  background-image: url(/images/image_bakground/дом\ лендос\ 1.png);
+}
+
+.center_bg {
+  width: 1107px;
+  height: 29px;
+  margin: 0px 164px 85px 166px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 122px;
+}
+.nav a {
+  color: aliceblue;
+}
+
+.search {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: aliceblue;
+}
+
+.favourites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favourites img {
+  width: 16px;
+  height: 12.5px;
+}
+
+.center_bg_two {
+  margin: auto;
+}

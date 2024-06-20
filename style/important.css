@@ -1,0 +1,47 @@
+.important_text {
+  width: 429px;
+  height: 156px;
+  margin: 186px 842px 156px 166px;
+}
+
+.important_text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.important_text span {
+  font-weight: 400;
+}
+
+.important_text_simle {
+  width: 323px;
+  height: 50px;
+  margin-top: 16px;
+}
+
+.important_text_simle p {
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.important_text_simle p > span {
+  font-weight: 700;
+}
+
+.important_button {
+  width: 285px;
+  height: 60px;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-left: 42px;
+  background-color: #feaa01;
+  margin-top: 62px;
+}
+
+.important_button button {
+  font-weight: 700;
+  color: #fbffff;
+  font-size: 16px;
+}

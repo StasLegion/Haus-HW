@@ -1,0 +1,156 @@
+main {
+  background-color: #f5f6fa;
+}
+.main-info {
+  display: flex;
+  width: 1105px;
+  height: 701px;
+  box-shadow: 0px 0px 90px 0px #cacaca;
+  background-color: #ffffff;
+  border-radius: 5px 5px 99px 5px;
+  position: relative;
+  top: -50px;
+  justify-content: space-between;
+  margin-left: 108px;
+}
+
+.main-info__question {
+  width: 646px;
+}
+
+.calculation-coins {
+  height: 72px;
+}
+.calculation-coins h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 63px;
+  margin-left: 108px;
+
+  color: #2d2d2f;
+}
+
+.calculation-coins span {
+  font-weight: 400;
+}
+
+.calculation-slider {
+  margin-top: 40px;
+  margin-left: 108px;
+}
+
+.calculation-question {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 108px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.calculation-question span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.calculation-choise {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  margin-left: 108px;
+}
+
+.choise-hous p,
+.choise-bathhouse p {
+  text-align: center;
+  margin-top: 33px;
+}
+
+.choise-hous img,
+.choise-bathhouse img {
+  width: 256px;
+  height: 230px;
+  border-radius: 19px;
+  column-gap: 29px;
+}
+
+.main-info__seil {
+  width: 346px;
+  height: 650px;
+}
+
+.main-info__seil {
+  background-color: #f5f6fa;
+  border-radius: 61px 0px 99px 0px;
+  margin-top: 52px;
+  text-align: center;
+}
+
+.main-info__seil h3 {
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #272627;
+}
+
+.main-info__seil p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #a09ea1;
+}
+
+.main-info__seil h4 {
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.main-info__seil h4 > span {
+  font-weight: 600;
+}
+
+.main-info__box {
+  width: 250px;
+  height: 67px;
+  border-radius: 32px 0px 32px 0px;
+  background-color: #ffffff;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-info__box p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.info-box__bg {
+  background-color: #000000;
+}
+
+.info-box__bg p {
+  color: #f3f3f3;
+}
+
+.recomendation {
+  margin-top: 62px;
+  margin-left: 108px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recomendation-text {
+  width: 190px;
+  height: 30px;
+  text-align: center;
+}
+
+.recomendation-button {
+  width: 140px;
+  height: 45px;
+  background-color: #feaa01;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.recomendation-button button {
+  padding: 15px 34px;
+}

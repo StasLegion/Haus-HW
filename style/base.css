@@ -1,0 +1,13 @@
+header {
+  position: relative;
+}
+.derevo {
+  position: absolute;
+  bottom: -220px;
+  right: -150px;
+  z-index: 1;
+}
+
+.setting_margin {
+  margin-left: 108px;
+}

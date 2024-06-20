@@ -1,0 +1,114 @@
+.build-hous-heading {
+  width: 1021px;
+  height: 95px;
+  margin-left: 76px;
+  text-align: center;
+}
+
+.build-hous-heading h2 {
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.build-hous-heading h2 > span {
+  font-weight: 400;
+}
+
+.show-hous {
+  margin-top: 47px;
+  display: grid;
+  grid-template-columns: repeat(111, 10px);
+  grid-template-rows: repeat(54, 10px);
+}
+
+.hous-box__one {
+  grid-column-start: 1;
+  grid-column-end: 36;
+  grid-row-start: 1;
+  grid-row-end: 36;
+  background-image: url(/images/show-hous/box-1-7.png);
+}
+
+.hous-box__two {
+  grid-column-start: 1;
+  grid-column-end: 36;
+  grid-row-start: 39;
+  grid-row-end: 55;
+  background-image: url(/images/show-hous/box-2.png);
+}
+
+.hous-box__three {
+  grid-column-start: 39;
+  grid-column-end: 74;
+  grid-row-start: 1;
+  grid-row-end: 17;
+  background-image: url(/images/show-hous/box-3.png);
+}
+
+.hous-box__four {
+  grid-column-start: 39;
+  grid-column-end: 74;
+  grid-row-start: 20;
+  grid-row-end: 36;
+  background-image: url(/images/show-hous/box-4.png);
+}
+
+.hous-box__five {
+  grid-column-start: 39;
+  grid-column-end: 74;
+  grid-row-start: 39;
+  grid-row-end: 55;
+  background-image: url(/images/show-hous/box-5.png);
+}
+
+.hous-box__six {
+  grid-column-start: 77;
+  grid-column-end: 112;
+  grid-row-start: 1;
+  grid-row-end: 17;
+  background-image: url(/images/show-hous/box-6.png);
+}
+
+.hous-box__seven {
+  grid-column-start: 77;
+  grid-column-end: 112;
+  grid-row-start: 20;
+  grid-row-end: 55;
+  background-image: url(/images/show-hous/box-1-7.png);
+}
+
+.show-hous__textproject {
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-around;
+}
+
+.show-hous__box {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.show-hous__text {
+  width: 157px;
+  height: 59px;
+}
+
+.show-hous__boxproject {
+  width: 76px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.show-hous__boxproject p {
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: #000000;
+}
+
+.price {
+  margin-top: 120px;
+}
