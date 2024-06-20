@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(/style/fonts-bold/gilroy-bold.woff2),
+    url(/style/fonts-bold/gilroy-bold.eot),
+    url(/style/fonts-bold/gilroy-bold.svg),
+    url(/style/fonts-bold/gilroy-bold.ttf),
+    url(/style/fonts-bold/gilroy-bold.woff);
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(/style/fonts-regular/gilroy-regular.eot),
+    url(/style/fonts-regular/gilroy-regular.svg),
+    url(/style/fonts-regular/gilroy-regular.ttf),
+    url(/style/fonts-regular/gilroy-regular.woff),
+    url(/style/fonts-regular/gilroy-regular.woff2);
+}
+* {
+  font-family: "Gilroy-Bold", "Gilroy-Regular", sans-serif;
+}
 header {
   position: relative;
 }

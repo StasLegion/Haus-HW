@@ -77,7 +77,8 @@
   background-image: url(/images/show-hous/box-1-7.png);
 }
 
-.show-hous__textproject {
+.show-hous__textproject,
+.show-hous__textproject2 {
   display: flex;
   margin-top: 45px;
   justify-content: space-around;
@@ -94,7 +95,8 @@
   height: 59px;
 }
 
-.show-hous__boxproject {
+.show-hous__boxproject,
+.show-hous__boxproject2 {
   width: 76px;
   height: 25px;
   border-radius: 12px;
@@ -102,7 +104,8 @@
   text-align: center;
 }
 
-.show-hous__boxproject p {
+.show-hous__boxproject p,
+.show-hous__boxproject2 p {
   font-size: 9px;
   font-weight: 600;
   margin-top: 8px;
@@ -111,4 +114,63 @@
 
 .price {
   margin-top: 120px;
+  margin-left: 25px;
+}
+
+.price span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.show-hous__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #73b918;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.show-hous__button button {
+  font-size: 10px;
+}
+
+.show-hous__textproject2 {
+  margin-top: 25px;
+}
+.show-hous__text2 {
+  width: 135px;
+  font-size: 23px;
+}
+
+.show-hous__button2 {
+  width: 132px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #73b918;
+}
+
+.show-hous__button2 button {
+  font-size: 10px;
+}
+
+.show-prise__button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.price2 {
+  font-size: 23px;
+}
+
+.price2 span {
+  font-size: 13px;
+  font-weight: 400;
 }
